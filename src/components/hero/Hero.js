@@ -47,7 +47,7 @@ function Hero() {
           <Button href='https://drive.google.com/file/d/1DwzAv62hSxVytDLTrPJr9bOb-P5Ragpp/view?usp=sharing' variant='outlined' size='small' color='warning' className='hero-button' sx={{ 
               textAlign: 'left',
               marginLeft: { xs: '0px !important', sm: '100px !important' } 
-            }} >Contact Me</Button>
+            }} >Resume</Button>
         </Container>
       </BackgroundStack>
     </div>
