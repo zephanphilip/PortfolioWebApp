@@ -1,0 +1,243 @@
+export const Bio = {
+    name: "Zephan Philip",
+    roles: [
+      "Jr. Full Stack Developer",
+      "3D Artist",
+      "3D Animator",
+      "Programmer",
+    ],
+    description:
+      "",
+    github: "https://github.com/zephanphilip",
+    resume:
+      "https://drive.google.com/file/d/1DwzAv62hSxVytDLTrPJr9bOb-P5Ragpp/view?usp=sharing",
+    linkedin: "https://in.linkedin.com/in/zephan-philip-57b455207/",
+    twitter: "https://x.com/zephanphilip",
+    insta: "https://www.instagram.com/zephan.philip/",
+    facebook: "https://www.facebook.com/zephan.philip.98/",
+  };
+  
+  export const skills = [
+    {
+      title: "WebDev",
+      skills: [
+        {
+          name: "React Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "Bootstrap",
+          image:
+            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        },
+        {
+          name: "Material UI",
+          image:
+            "data:image/png;base64,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",
+        },
+        {
+          name: "Node Js",
+          image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/node-js-icon.png",
+        },
+        {
+          name: "Express Js",
+          image:
+            "https://www.manektech.com/storage/developer/1646733543.webp",
+        },
+        {
+          name: "MySQL",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png",
+        },
+        {
+          name: "MongoDB",
+          image:
+            "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png",
+        },
+        {
+          name: "Firebase",
+          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        }
+      ],
+    },
+    {
+      title: "Animation and Others",
+      skills: [
+        {
+          name: "Blender",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/blender-icon.png",
+        },
+        {
+          name: "Premiere Pro",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-premiere-pro-icon.png",
+        },
+        {
+          name: "After Effects",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/2101px-Adobe_After_Effects_CC_icon.svg.png",
+        },
+        {
+          name: "Photoshop",
+          image:
+              "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-photoshop-icon.png",
+        },
+        {
+          name: "Unreal Engine",
+          image:
+            "https://www.pngkey.com/png/full/275-2752575_ue4-logo-unreal-engine-logo-png.png",
+        },
+        {
+          name: "Unity 3D",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/unity-game-engine-icon.png",
+        },
+        {
+          name: "GitHub",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png",
+        },
+        {
+          name: "VS Code",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        },
+        {
+          name: "Postman",
+          image:
+            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        },
+      ],
+    },
+  ];
+  
+// data/constants.js
+export const educationData = [
+  {
+    institution: "Viswajyothi College of Engineering and Technology",
+    degree: "Bachelor of Technology - BTech, Computer Science and Design",
+    duration: "Nov 2021 - Aug 2025",
+    grade: "7.6 CGPA",
+    description: "I am currently pursuing a Bachelor's degree in Computer Science and Design at VJCET. I have completed 6 semesters and have a CGPA of 7.6.",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpMOc16kDkgbHzh2BesIHD02_KICNaJQChA&s"
+  },
+  {
+    institution: "Kuriakose Elias English Medium School, Kottayam",
+    degree: "ISC(XII), Science with Computer",
+    duration: "Apr 2019 - Apr 2021",
+    grade: "89.5%",
+    description: "I completed my class 12 high school education at Kuriakose Elias English Medium School, Kottayam, where I studied Science with Computer Science.",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYtmn-NCsQg-uJLXpxwL8u5mViYhpxw7gqQ&s"
+  },
+  {
+    institution: "Evershine Residential School",
+    degree: "ICSE, Science with Computer",
+    duration: "Apr 2019",
+    grade: "92.6%",
+    description: "I completed my class 10  education at Evershine Residential School, Pathanamthitta, where I studied Science with Computer Application",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2P_VRoP1tNcUIrO4t1shyg0V5dq1i_gCaJQ&s"
+  }
+];
+
+
+  
+  export const projects = [
+    {
+      id: 1,
+      title: "Expense Tracker",
+      date: "Apr 2024",
+      description:
+        "Expense Tracker is a web application designed to calculate your daily expenses",
+      image:
+        "https://private-user-images.githubusercontent.com/133225359/338003142-ac0e91e5-b14b-40d2-90d7-02a9e327f0f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA1MDUsIm5iZiI6MTcxNzk2MDIwNSwicGF0aCI6Ii8xMzMyMjUzNTkvMzM4MDAzMTQyLWFjMGU5MWU1LWIxNGItNDBkMi05MGQ3LTAyYTllMzI3ZjBmNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTEwMDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZDU2ZDBjYzJlODJmNmQwM2YyZGMwYTY3MmVjMzVmYzFhMzlmY2Y3ZGFjMGRhNGVhOGY2YTJlMWYyNWRhM2RjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MVMG3USTY1sYOHVYfB1S_02b-BP77a0EfSwg95CnGDE",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/Expense-Tracker",
+      webapp: "https://github.com/zephanphilip/Expense-Tracker",
+    },
+    {
+      id: 2,
+      title: "The Chat App",
+      date: "Jan 2024",
+      description:
+        "Developed a Chat app using React and Firebase. Here users can create public rooms and Chat with anyone.",
+      image:
+        "https://private-user-images.githubusercontent.com/133225359/337982253-42548fd0-405c-4499-b5c9-892171895e15.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA1NzQsIm5iZiI6MTcxNzk2MDI3NCwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMjUzLTQyNTQ4ZmQwLTQwNWMtNDQ5OS1iNWM5LTg5MjE3MTg5NWUxNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTExMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMzk4YmVjYWNmNWI0YzVjMGM5MGQ4YmJlNTQwZjY1ZDQ2NThmMGFkYzRkNmFhNjBjOWRkNjBmNzY2MzZlZTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ttv5YPT9lr2EOZ-y8jJWI9kQCgKkSV4z-x0Ci7NJeTE",
+      tags: ["React Js", "firebase"],
+      category: "web app",
+      github: "https://github.com/zephanphilip/chat-app",
+      webapp: "https://chat-app-322ad.web.app/",
+      
+    },
+    {
+      id: 3,
+      title: "Workout Planner",
+      date: "Mar 2024",
+      description:
+        "Designed and developed the Workout Planner WebApp, a workout management app that helps users stay organized and on track with workout routines.",
+      image:
+        "https://private-user-images.githubusercontent.com/133225359/337982321-41b25bb4-c364-495c-a138-46b794f29806.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA3ODQsIm5iZiI6MTcxNzk2MDQ4NCwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMzIxLTQxYjI1YmI0LWMzNjQtNDk1Yy1hMTM4LTQ2Yjc5NGYyOTgwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTE0NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNzY1ODgyOGE2MzcwZWU4YjEyNDQ4MjBkM2Q1ZjE4MDEwM2NkODg3NmVhOTk1NDVlY2EzZGQxMDgyNTI3MGZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.L-c9QXTJTx01fUWX1Hh5kVqEOgAgXwLGWq5X3Z9aqbI",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/WorkoutPlanner",
+      webapp: "https://workoutplanner-frontend.onrender.com/",
+    },
+    {
+      id: 4,
+      title: "Netflic Clone - frontend",
+      date: "Oct 2022",
+      description:
+        "Designed a clone of Netflix for getting familiar with React and ui components",
+      image:
+        "https://private-user-images.githubusercontent.com/133225359/337982125-9a97c36b-e2af-45cc-bf7a-2a5bb2a83f90.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA5ODIsIm5iZiI6MTcxNzk2MDY4MiwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMTI1LTlhOTdjMzZiLWUyYWYtNDVjYy1iZjdhLTJhNWJiMmE4M2Y5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTE4MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YmRjNjAxNGY2MDNiYmFmMGIwODVhM2U2MmM5ODFlOTdkZWJjNGU1MWVlNDJkNTRkMzZkZGRkZDRlYzE0ZjczJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.caJA1fbVAfuBPzDNtA7u-rSAxb4Cg1kTqqkUsc_BI2k",
+      tags: [
+        "React Js",
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/netflix_clone",
+      webapp: "https://github.com/zephanphilip/netflix_clone",
+    },
+    {
+      id: 5,
+      title: "Carrera-GT 3D Walkaround",
+      date: "Nov 2023",
+      description:
+        "Carrera-GT 3D Walkaround is a website to walkaround the 3d model of Porche Carrera-GT made using three.js,html and css",
+      image:
+        "https://private-user-images.githubusercontent.com/133225359/337982512-039b9d7b-37f0-4ff8-8400-6a7c39c750ce.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjE0ODksIm5iZiI6MTcxNzk2MTE4OSwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyNTEyLTAzOWI5ZDdiLTM3ZjAtNGZmOC04NDAwLTZhN2MzOWM3NTBjZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTI2MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmQ0NDk5OWQ5NDg3NTZkMGNhYjc4ZGQxZGQ0MjdkYzM4NTNiNTA1OTllOGNjYWViOWZlMDk3NzZhODUxZDMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5jPR8kttQTRr_mylpqCvuuj3jZ3xPsrhxgXqV9sduE0",
+      tags: [
+        "Three Js",
+        "html",
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
+      webapp: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
+    },
+  ];
+  

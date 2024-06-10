@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
+import { CssBaseline, createTheme, ThemeProvider } from '@mui/material';
+import Navbar from './components/NavBar/Navbar';
+import Hero from './components/hero/Hero';
 import './App.css';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Education from './components/Education/Education';
+import Footer from './components/Footer/Footer';
+
+
+
+const theme = createTheme({
+  palette: {
+    mode: 'dark', // or 'dark'
+  },
+});
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Navbar />
+        <Hero />
+        <div id='about' className='components-div'>
+        <About />
+        </div>
+        <div id='skills' className='components-div'>
+          <Skills/>
+        </div>
+        <div id='projects' className='components-div'>
+          <Projects/>
+        </div>
+        <div id='education' className='components-div'>
+          <Education />
+        </div>
+        <Footer />
+    </ThemeProvider>
   );
 }
 
