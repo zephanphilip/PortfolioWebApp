@@ -165,7 +165,7 @@ export const educationData = [
       description:
         "Expense Tracker is a web application designed to calculate your daily expenses",
       image:
-        "https://private-user-images.githubusercontent.com/133225359/338003142-ac0e91e5-b14b-40d2-90d7-02a9e327f0f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA1MDUsIm5iZiI6MTcxNzk2MDIwNSwicGF0aCI6Ii8xMzMyMjUzNTkvMzM4MDAzMTQyLWFjMGU5MWU1LWIxNGItNDBkMi05MGQ3LTAyYTllMzI3ZjBmNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTEwMDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZDU2ZDBjYzJlODJmNmQwM2YyZGMwYTY3MmVjMzVmYzFhMzlmY2Y3ZGFjMGRhNGVhOGY2YTJlMWYyNWRhM2RjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MVMG3USTY1sYOHVYfB1S_02b-BP77a0EfSwg95CnGDE",
+        "https://github.com/zephanphilip/Expense-Tracker/assets/133225359/7a23931d-bd00-401b-9ae0-c2735f091a07",
       tags: [
         "React Js",
         "MongoDb",
@@ -174,7 +174,7 @@ export const educationData = [
       ],
       category: "web app",
       github: "https://github.com/zephanphilip/Expense-Tracker",
-      webapp: "https://github.com/zephanphilip/Expense-Tracker",
+      webapp: "https://expense-tracker-server-b3fc.onrender.com",
     },
     {
       id: 2,
@@ -183,7 +183,7 @@ export const educationData = [
       description:
         "Developed a Chat app using React and Firebase. Here users can create public rooms and Chat with anyone.",
       image:
-        "https://private-user-images.githubusercontent.com/133225359/337982253-42548fd0-405c-4499-b5c9-892171895e15.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA1NzQsIm5iZiI6MTcxNzk2MDI3NCwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMjUzLTQyNTQ4ZmQwLTQwNWMtNDQ5OS1iNWM5LTg5MjE3MTg5NWUxNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTExMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMzk4YmVjYWNmNWI0YzVjMGM5MGQ4YmJlNTQwZjY1ZDQ2NThmMGFkYzRkNmFhNjBjOWRkNjBmNzY2MzZlZTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ttv5YPT9lr2EOZ-y8jJWI9kQCgKkSV4z-x0Ci7NJeTE",
+        "https://github.com/zephanphilip/chat-app/assets/133225359/42548fd0-405c-4499-b5c9-892171895e15",
       tags: ["React Js", "firebase"],
       category: "web app",
       github: "https://github.com/zephanphilip/chat-app",
@@ -197,7 +197,7 @@ export const educationData = [
       description:
         "Designed and developed the Workout Planner WebApp, a workout management app that helps users stay organized and on track with workout routines.",
       image:
-        "https://private-user-images.githubusercontent.com/133225359/337982321-41b25bb4-c364-495c-a138-46b794f29806.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA3ODQsIm5iZiI6MTcxNzk2MDQ4NCwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMzIxLTQxYjI1YmI0LWMzNjQtNDk1Yy1hMTM4LTQ2Yjc5NGYyOTgwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTE0NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNzY1ODgyOGE2MzcwZWU4YjEyNDQ4MjBkM2Q1ZjE4MDEwM2NkODg3NmVhOTk1NDVlY2EzZGQxMDgyNTI3MGZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.L-c9QXTJTx01fUWX1Hh5kVqEOgAgXwLGWq5X3Z9aqbI",
+        "https://github.com/zephanphilip/WorkoutPlanner/assets/133225359/41b25bb4-c364-495c-a138-46b794f29806",
       tags: [
         "React Js",
         "MongoDb",
@@ -215,7 +215,7 @@ export const educationData = [
       description:
         "Designed a clone of Netflix for getting familiar with React and ui components",
       image:
-        "https://private-user-images.githubusercontent.com/133225359/337982125-9a97c36b-e2af-45cc-bf7a-2a5bb2a83f90.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjA5ODIsIm5iZiI6MTcxNzk2MDY4MiwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyMTI1LTlhOTdjMzZiLWUyYWYtNDVjYy1iZjdhLTJhNWJiMmE4M2Y5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTE4MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YmRjNjAxNGY2MDNiYmFmMGIwODVhM2U2MmM5ODFlOTdkZWJjNGU1MWVlNDJkNTRkMzZkZGRkZDRlYzE0ZjczJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.caJA1fbVAfuBPzDNtA7u-rSAxb4Cg1kTqqkUsc_BI2k",
+        "https://github.com/zephanphilip/netflix_clone/assets/133225359/9a97c36b-e2af-45cc-bf7a-2a5bb2a83f90",
       tags: [
         "React Js",
       ],
@@ -230,7 +230,7 @@ export const educationData = [
       description:
         "Carrera-GT 3D Walkaround is a website to walkaround the 3d model of Porche Carrera-GT made using three.js,html and css",
       image:
-        "https://private-user-images.githubusercontent.com/133225359/337982512-039b9d7b-37f0-4ff8-8400-6a7c39c750ce.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc5NjE0ODksIm5iZiI6MTcxNzk2MTE4OSwicGF0aCI6Ii8xMzMyMjUzNTkvMzM3OTgyNTEyLTAzOWI5ZDdiLTM3ZjAtNGZmOC04NDAwLTZhN2MzOWM3NTBjZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwOVQxOTI2MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmQ0NDk5OWQ5NDg3NTZkMGNhYjc4ZGQxZGQ0MjdkYzM4NTNiNTA1OTllOGNjYWViOWZlMDk3NzZhODUxZDMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5jPR8kttQTRr_mylpqCvuuj3jZ3xPsrhxgXqV9sduE0",
+        "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp/assets/133225359/039b9d7b-37f0-4ff8-8400-6a7c39c750ce",
       tags: [
         "Three Js",
         "html",
