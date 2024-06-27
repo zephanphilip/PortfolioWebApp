@@ -160,6 +160,25 @@ export const educationData = [
   export const projects = [
     {
       id: 1,
+      title: "Ai Notes App",
+      date: "Jun 2024",
+      description:
+        "Ai Notes App is an note writing application which includes google's Gemenai ai integration giving suggestions, planings calculations based on your notes",
+      image:
+        "https://github.com/zephanphilip/PortfolioWebApp/assets/133225359/227287d6-8eb9-4bb3-8c28-03f971dcba97",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Gemenai",
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/Ai-NotesApp",
+      webapp: "https://ai-notesapp.onrender.com/",
+    },
+    {
+      id: 2,
       title: "Expense Tracker",
       date: "Apr 2024",
       description:
@@ -177,7 +196,7 @@ export const educationData = [
       webapp: "https://expense-tracker-server-b3fc.onrender.com",
     },
     {
-      id: 2,
+      id: 3,
       title: "The Chat App",
       date: "Jan 2024",
       description:
@@ -191,7 +210,7 @@ export const educationData = [
       
     },
     {
-      id: 3,
+      id: 4,
       title: "Workout Planner",
       date: "Mar 2024",
       description:
@@ -209,7 +228,7 @@ export const educationData = [
       webapp: "https://workoutplanner-frontend.onrender.com/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Netflic Clone - frontend",
       date: "Oct 2022",
       description:
@@ -224,7 +243,7 @@ export const educationData = [
       webapp: "https://github.com/zephanphilip/netflix_clone",
     },
     {
-      id: 5,
+      id: 6,
       title: "Carrera-GT 3D Walkaround",
       date: "Nov 2023",
       description:
