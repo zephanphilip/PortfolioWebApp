@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/PortfolioWebApp/static/css/main.8be73aea.css",
-    "main.js": "/PortfolioWebApp/static/js/main.df178ae3.js",
+    "main.js": "/PortfolioWebApp/static/js/main.11ea74c5.js",
     "static/media/hero_bw.png": "/PortfolioWebApp/static/media/hero_bw.9a19f7b83546759c89f6.png",
+    "static/media/vrgame.png": "/PortfolioWebApp/static/media/vrgame.c31eb7baac8dc85918e0.png",
+    "static/media/lambo.jpg": "/PortfolioWebApp/static/media/lambo.e54c76d5b9e75dd02c3f.jpg",
+    "static/media/teashop.jpg": "/PortfolioWebApp/static/media/teashop.4e508aebf38dd31543d2.jpg",
+    "static/media/r32.jpg": "/PortfolioWebApp/static/media/r32.f645d62989aa0686613d.jpg",
+    "static/media/r35.jpg": "/PortfolioWebApp/static/media/r35.2a86ff7728538d200319.jpg",
+    "static/media/mustang.jpg": "/PortfolioWebApp/static/media/mustang.6c64523bf9bc8442d9ad.jpg",
+    "static/media/m5.jpg": "/PortfolioWebApp/static/media/m5.ace51a6aa5ac9cac1928.jpg",
+    "static/media/boat.jpg": "/PortfolioWebApp/static/media/boat.0f00e17f1db1b4184c22.jpg",
     "index.html": "/PortfolioWebApp/index.html",
     "main.8be73aea.css.map": "/PortfolioWebApp/static/css/main.8be73aea.css.map",
-    "main.df178ae3.js.map": "/PortfolioWebApp/static/js/main.df178ae3.js.map"
+    "main.11ea74c5.js.map": "/PortfolioWebApp/static/js/main.11ea74c5.js.map"
   },
   "entrypoints": [
     "static/css/main.8be73aea.css",
-    "static/js/main.df178ae3.js"
+    "static/js/main.11ea74c5.js"
   ]
 }
