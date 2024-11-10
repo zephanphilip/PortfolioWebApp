@@ -22,7 +22,7 @@ export const Bio = {
       "https://drive.google.com/file/d/1DwzAv62hSxVytDLTrPJr9bOb-P5Ragpp/view?usp=sharing",
     linkedin: "https://in.linkedin.com/in/zephan-philip-57b455207/",
     twitter: "https://x.com/zephanphilip",
-    insta: "https://www.instagram.com/zephan.philip/",
+    insta: "https://www.instagram.com/pixabyte.studios/",
     facebook: "https://www.facebook.com/zephan.philip.98/",
   };
   
