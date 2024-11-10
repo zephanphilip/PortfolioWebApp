@@ -36,7 +36,7 @@ function Hero() {
           <Typography variant="h4" className="hero-text" paragraph>
             I'm a{' '}
             <ReactTyped
-              strings={['Jr MERN Stack Dev', '3D Animator']}
+              strings={['3D Animator','Jr MERN Stack Dev' ]}
               typeSpeed={150}
               loop
               backSpeed={20}

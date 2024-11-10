@@ -25,10 +25,15 @@ function Projects() {
               <Typography variant="body2" color="text.secondary">{project.description}</Typography>
             </CardContent>
             <CardActions disableSpacing>
-              <ButtonGroup variant="outlined" aria-label="Basic button group">
-                <Button href={project.github} >View Code</Button>
-                <Button href={project.webapp} >View Live App</Button>
-              </ButtonGroup>
+            {project.category === '3d' ? (
+    <Button href={project.link} variant="outlined">View</Button>
+) : (
+    <ButtonGroup variant="outlined" aria-label="Basic button group">
+        <Button href={project.github}>View Code</Button>
+        <Button href={project.webapp}>View Live App</Button>
+    </ButtonGroup>
+)}
+
             </CardActions>
           </Card>
         ))}

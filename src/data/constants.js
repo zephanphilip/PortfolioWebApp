@@ -1,9 +1,18 @@
+import boat from "../assets/boat.jpg";
+import lambo from "../assets/lambo.jpg";
+import m5 from "../assets/m5.jpg";
+import mustang from "../assets/mustang.jpg";
+import r32 from "../assets/r32.jpg";
+import r35 from "../assets/r35.jpg";
+import teashop from "../assets/teashop.jpg";
+import vrgame from "../assets/vrgame.png";
+
 export const Bio = {
     name: "Zephan Philip",
     roles: [
-      "Jr. Full Stack Developer",
-      "3D Artist",
       "3D Animator",
+      "3D Artist",
+      "Jr. Full Stack Developer",
       "Programmer",
     ],
     description:
@@ -160,6 +169,126 @@ export const educationData = [
   export const projects = [
     {
       id: 1,
+      title: "An Immerscape VR",
+      date: "May 2023",
+      description:
+        "An Immerscape VR is an interactive small open world VR game where users can interact with objects in the virtual world and users can shoot using guns. It was made using Unity3D.",
+      image:
+        vrgame,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://drive.google.com/drive/folders/14-ndTx7AzwN8VtlFkCPIagLp64aWa3S9?usp=sharing",
+    },
+    {
+      id: 2,
+      title: "An Anime Style",
+      date: "Apr 2023",
+      description:
+        "An Nissan R32 Anime Style 3D Animation made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro",
+      image:
+        r32,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/C5vupkgy75M/?igsh=bjRjbTRnb2Q5d2M0",
+    },
+    {
+      id: 3,
+      title: "The Lambooooo!",
+      date: "Aug 2023",
+      description:
+        "3D Lambo Animation made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro",
+      image:
+        lambo,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/Cwk2IUWyLVP/?igsh=Z3d1dDlpamU2eHZr",
+    },
+    {
+      id: 4,
+      title: "The M5 drift",
+      date: "Jan 2022",
+      description:
+        "An M5 drift 3D Animation made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro",
+      image:
+        m5,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/CZD9L_Ll9j_/?igsh=aGFkb3B3Y2hndnEz",
+    },
+    {
+      id: 5,
+      title: "The rollin' Mustang",
+      date: "Apr 2021",
+      description:
+        "A Ford Mustang 3D Animation made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro",
+      image:
+        mustang,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/CN6zu4PjRLm/?igsh=MWhuaHd6eW05djc2dg==",
+    },
+    {
+      id: 6,
+      title: "The r35 Godzila!",
+      date: "Dec 2021",
+      description:
+        "An Nissan R35 3D Animation made using Blender 3D, rendered using Blender's Eeve render and post processed in Adobe Premiere Pro",
+      image:
+        r35,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/CYJzjwBF36n/?igsh=MXgyMm9tZGYzM29uZg==",
+    },
+    {
+      id: 7,
+      title: "The classic Tea shop",
+      date: "Feb 2021",
+      description:
+        "A classic Tea shop 3D Animation made using Blender 3D, rendered using Blender's Eeve render and post processed in Adobe Premiere Pro",
+      image:
+        teashop,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/p/CLR5RvLD1w4/?igsh=MWJxejJiazlzazdpcg==",
+    },
+    {
+      id: 8,
+      title: "The Floating Boat",
+      date: "Apr 2023",
+      description:
+        "A floating boat animation made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro",
+      image:
+        boat,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/CrVT7X6uEDz/?igsh=MTd6dHlnbjU1aWpyOQ==",
+    },
+    {
+      id: 13,
       title: "Ai Notes App",
       date: "Jun 2024",
       description:
@@ -178,7 +307,7 @@ export const educationData = [
       webapp: "https://ai-notesapp.onrender.com/",
     },
     {
-      id: 2,
+      id: 14,
       title: "Expense Tracker",
       date: "Apr 2024",
       description:
@@ -196,7 +325,7 @@ export const educationData = [
       webapp: "https://expense-tracker-server-b3fc.onrender.com",
     },
     {
-      id: 3,
+      id: 9,
       title: "The Chat App",
       date: "Jan 2024",
       description:
@@ -210,7 +339,7 @@ export const educationData = [
       
     },
     {
-      id: 4,
+      id: 10,
       title: "Workout Planner",
       date: "Mar 2024",
       description:
@@ -228,7 +357,7 @@ export const educationData = [
       webapp: "https://workoutplanner-frontend.onrender.com/",
     },
     {
-      id: 5,
+      id: 11,
       title: "Netflic Clone - frontend",
       date: "Oct 2022",
       description:
@@ -243,7 +372,7 @@ export const educationData = [
       webapp: "https://github.com/zephanphilip/netflix_clone",
     },
     {
-      id: 6,
+      id: 12,
       title: "Carrera-GT 3D Walkaround",
       date: "Nov 2023",
       description:
@@ -258,5 +387,6 @@ export const educationData = [
       github: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
       webapp: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
     },
+   
   ];
   
