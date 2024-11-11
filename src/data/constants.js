@@ -6,6 +6,8 @@ import r32 from "../assets/r32.jpg";
 import r35 from "../assets/r35.jpg";
 import teashop from "../assets/teashop.jpg";
 import vrgame from "../assets/vrgame.png";
+import moto from "../assets/moto.png";
+import moto1 from "../assets/moto1.png";
 
 export const Bio = {
     name: "Zephan Philip",
@@ -19,7 +21,7 @@ export const Bio = {
       "",
     github: "https://github.com/zephanphilip",
     resume:
-      "https://drive.google.com/file/d/1DwzAv62hSxVytDLTrPJr9bOb-P5Ragpp/view?usp=sharing",
+      "https://drive.google.com/file/d/15BRTTiFALLL2crzZhRACMvDTInf0gK1x/view?usp=sharing",
     linkedin: "https://in.linkedin.com/in/zephan-philip-57b455207/",
     twitter: "https://x.com/zephanphilip",
     insta: "https://www.instagram.com/pixabyte.studios/",
@@ -182,6 +184,34 @@ export const educationData = [
       category: "3d",
       link: "https://drive.google.com/drive/folders/14-ndTx7AzwN8VtlFkCPIagLp64aWa3S9?usp=sharing",
     },
+    {id: 13,
+      title: "MotoTorque 2.0",
+      date: "Feb 2024",
+      description:
+        "An Cinematic animation short film made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro and Davinci Resolve. It was done for promotion for Tech fest of Viswajyothi College 2024.",
+      image:
+        moto,
+      tags: [
+        "Blender 3D",
+        "Adobe Premiere Pro",
+      ],
+      category: "3d",
+      link: "https://www.instagram.com/reel/C3xgNtePLnW/?igsh=MWt2bm95YzV3MjF4NQ==",
+   },
+   {id: 14,
+    title: "MotoTorque",
+    date: "Feb 2023",
+    description:
+      "An Cinematic animation short film made using Blender 3D, rendered using Blender's Cycle render and post processed in Adobe Premiere Pro and Davinci Resolve.It was done for promotion for Tech fest of Viswajyothi College 2023.",
+    image:
+      moto1,
+    tags: [
+      "Blender 3D",
+      "Adobe Premiere Pro",
+    ],
+    category: "3d",
+    link: "https://www.instagram.com/reel/Cp7_VWwsIpk/?igsh=MWt3ZWVyZHZrOW1lMw==",
+ },
     {
       id: 2,
       title: "An Anime Style",
