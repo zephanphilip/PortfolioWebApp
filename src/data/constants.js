@@ -7,7 +7,7 @@ import r35 from "../assets/r35.jpg";
 import teashop from "../assets/teashop.jpg";
 import vrgame from "../assets/vrgame.png";
 import moto from "../assets/moto.png";
-import moto1 from "../assets/moto1.png";
+import moto1 from "../assets/moto1.jpg";
 
 export const Bio = {
     name: "Zephan Philip",
