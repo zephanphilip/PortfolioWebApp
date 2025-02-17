@@ -8,6 +8,9 @@ import teashop from "../assets/teashop.jpg";
 import vrgame from "../assets/vrgame.png";
 import moto from "../assets/moto.png";
 import moto1 from "../assets/moto1.jpg";
+import flappy from "../assets/flappy.png";
+import heli from "../assets/heli.png";
+import runner from "../assets/runner.png";
 
 export const Bio = {
     name: "Zephan Philip",
@@ -169,6 +172,45 @@ export const educationData = [
 
   
   export const projects = [
+    { id: 15,
+      title: "Runner Game with Mixamo Animations and Skate Mechanic",
+      date: "Feb 2025",
+      description:
+        "Built a runner game featuring a character with fluid animations created using Mixamo. Implemented a unique skate mechanic where players can skate for 5 seconds after scoring 10 points, adding a layer of strategy and excitement. This project deepened my understanding of animation integration, character controllers, and game balancing.",
+      image:
+        runner,
+      tags: [
+        "Unity 3d",
+      ],
+      category: "3d",
+      link: "https://drive.google.com/drive/folders/1pFetDUq-aT7kPLJUTwXI_pHyj7KZ68wv?usp=sharing",
+    },
+    { id: 16,
+      title: "Helicopter Shooter",
+      date: "Dec 2024",
+      description:
+        "Created a dynamic shooter game where players control a helicopter to shoot obstacles and earn points. This project enhanced my skills in game mechanics, collision detection, and score management, while also introducing me to particle effects for explosions and other visual feedback.",
+      image:
+        heli,
+      tags: [
+        "Unity 3d",
+      ],
+      category: "3d",
+      link: "https://drive.google.com/drive/folders/1WkqaVEt1XL-ats4UUzcQ7j71tjmmSx1w?usp=sharing",
+    },
+    { id: 17,
+      title: "Flappy Bird Clone",
+      date: "Nov 2024",
+      description:
+        "Developed a Flappy Bird-inspired game where players can switch between multiple characters, each with unique visuals. This project helped me understand Unity's 2D physics, sprite management, and user input handling.",
+      image:
+        flappy,
+      tags: [
+        "Unity 3d",
+      ],
+      category: "3d",
+      link: "https://drive.google.com/drive/folders/1WkqaVEt1XL-ats4UUzcQ7j71tjmmSx1w?usp=sharing",
+    },
     {
       id: 1,
       title: "An Immerscape VR",
