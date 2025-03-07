@@ -1,4 +1,127 @@
-/* mobile */
-@media (max-width: 600px) {
+/* about.css - Styling for the About section with Hero continuity */
+
+.about-section {
+    position: relative;
+    padding: 5;
+    margin-top: -1vh; /* Creates overlap with hero section */
+    overflow: visible;
+    z-index: 10;
+  }
+  
+  .about-card {
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px !important;
+    overflow: hidden;
+    border-top: 4px solid #ff9800 !important; /* Matches hero accent color */
+  }
+  
+  .about-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background: #ff9800; /* Matched to hero orange color */
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-title {
+    font-weight: 700 !important;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem !important;
+    color: #f4f4f4;
+    padding-bottom: 10px;
+  }
+  
+  .about-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #ff9800; /* Matched to hero color */
+    border-radius: 2px;
+  }
+  
+  .about-text {
+    color: #ffffff;
+    font-weight: 400 !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1.2rem !important;
+  }
+  
+  .highlight {
+    color: #ff9800; /* Matched to hero color */
+    font-weight: 600;
+  }
+  
+  .skill-tag {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 5px 12px;
+    background-color: rgba(255, 152, 0, 0.1);
+    color: #ff9800; /* Matched to hero color */
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-tag:hover {
+    background-color: rgba(255, 152, 0, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.15);
+  }
+  
+  .skill-tags-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Animation for section entry */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .about-section {
+      padding: 2rem 0;
+    }
     
-}
+    .about-card {
+      padding: 1.5rem !important;
+    }
+    
+    .about-title {
+      font-size: 1.8rem !important;
+    }
+    
+    .about-text {
+      font-size: 1rem !important;
+    }
+  }

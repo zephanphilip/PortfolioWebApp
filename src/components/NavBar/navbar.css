@@ -1,0 +1,133 @@
+/* navbar.css - Styling for the Navbar component */
+
+.navbar {
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  .navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  .navbar-toolbar {
+    padding: 0.5rem 1rem !important;
+    min-height: 64px;
+  }
+  
+  .navbar-logo {
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-accent {
+    color: #ff9800;
+  }
+  
+  .navbar-links {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .nav-link {
+    position: relative;
+    color: white !important;
+    margin: 0 0.5rem !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    letter-spacing: 0.5px !important;
+    padding: 6px 12px !important;
+    overflow: hidden;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff9800;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .nav-link.active::after {
+    transform: scaleX(1);
+  }
+  
+  .mobile-menu-button {
+    color: white !important;
+    margin-left: auto !important;
+    display: none !important;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 750px) {
+    .navbar-links {
+      display: none !important;
+    }
+    
+    .mobile-menu-button {
+      display: flex !important;
+    }
+  }
+  
+  /* Mobile Menu Styles */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: -5px 0 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mobile-menu.open {
+    transform: translateX(0);
+  }
+  
+  .mobile-nav-link {
+    color: white !important;
+    font-size: 1.2rem !important;
+    margin: 1rem 0 !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    letter-spacing: 0.5px !important;
+    transition: color 0.3s ease !important;
+  }
+  
+  .mobile-nav-link:hover {
+    color: #ff9800 !important;
+  }
+  
+  .close-button {
+    position: absolute !important;
+    top: 20px;
+    right: 20px;
+    color: white !important;
+  }

@@ -147,7 +147,7 @@ export const educationData = [
     institution: "Viswajyothi College of Engineering and Technology",
     degree: "Bachelor of Technology - BTech, Computer Science and Design",
     duration: "Nov 2021 - Aug 2025",
-    grade: "7.6 CGPA",
+    grade: "7.8 CGPA",
     description: "I am currently pursuing a Bachelor's degree in Computer Science and Design at VJCET. I have completed 6 semesters and have a CGPA of 7.6.",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpMOc16kDkgbHzh2BesIHD02_KICNaJQChA&s"
   },

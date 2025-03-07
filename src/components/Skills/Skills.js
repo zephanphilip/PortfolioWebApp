@@ -1,37 +1,43 @@
 import React from 'react';
 import './skills.css';
-import { Box, Card, CardHeader, CardMedia, Typography, CardContent } from '@mui/material';
+import { Box, Card, Typography, Container } from '@mui/material';
 import { skills } from '../../data/constants';
 
 function Skills() {
   return (
-    <Box className="skill-box" sx={{ padding: '2rem' }}>
-      <Typography variant="h4" sx={{ textAlign: "center", marginBottom: '2rem' }}>Skills</Typography>
-      <Box className="skills-container" sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-        {skills.map((skill) => (
-          <Card sx={{ maxWidth: {sm:'100%'}, marginTop: '1rem', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' }} key={skill.title}>
-            <CardHeader
-              title={skill.title}
-              titleTypographyProps={{ variant: 'h6', align: 'center' }}
-            />
-            <CardContent>
-              <Box className="skill-items" sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
-                {skill.skills.map((item) => (
-                  <Box key={item.name} sx={{ textAlign: 'center', margin: '0.5rem' }}>
-                    <CardMedia
-                      component="img"
-                      image={item.image}
-                      alt={item.name}
-                      sx={{ height: {xs:'40px',sm:'60px'}, width:{xs:'40px',sm:'60px'}, marginBottom: '0.5rem' }}
+    <Box className="skills-section">
+      <Container>
+        <Typography variant="h4" className="skills-title" align="center">
+          Skills
+        </Typography>
+        
+        <Box className="skills-grid">
+          {skills.map((skillCategory) => (
+            <Card key={skillCategory.title} className="skill-card">
+              <Box className="skill-card-header">
+                <Typography variant="h6" className="skill-card-title" align="center">
+                  {skillCategory.title}
+                </Typography>
+              </Box>
+              
+              <Box className="skill-items-container">
+                {skillCategory.skills.map((skill) => (
+                  <Box key={skill.name} className="skill-item">
+                    <img 
+                      src={skill.image} 
+                      alt={skill.name} 
+                      className="skill-icon"
                     />
-                    <Typography variant="body2">{item.name}</Typography>
+                    <Typography variant="body2" className="skill-name">
+                      {skill.name}
+                    </Typography>
                   </Box>
                 ))}
               </Box>
-            </CardContent>
-          </Card>
-        ))}
-      </Box>
+            </Card>
+          ))}
+        </Box>
+      </Container>
     </Box>
   );
 }

@@ -1,77 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* hero.css - Enhanced styling for portfolio hero section */
 
+.hero-container {
+  overflow: visible; /* Allow content to overflow for continuity with About section */
+  position: relative;
+}
+
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
+}
+
+.hero-container::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
 
 .hero-content {
-  margin: 10px !important;
-  text-align: center;
+  position: relative;
+  z-index: 2;
+  padding-top: 15vh !important;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .hero-text {
-  margin-left: 100px !important;
-  font-family: "Kanit", sans-serif !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 700 !important;
+  letter-spacing: -0.5px;
+  line-height: 1.2 !important;
 }
 
 .hero-name {
-  color: #ffbb00 !important;
-  font-size: 70px !important;
+  color: #ff9800; /* MUI warning color */
+  position: relative;
+  display: inline-block;
+}
+
+.hero-name::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ff9800;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+  animation: underlineAnimation 1.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes underlineAnimation {
+  to { transform: scaleX(1); transform-origin: bottom left; }
 }
 
 .hero-button {
-  margin-left: 100px !important;
-  font-weight: 400 !important;
+  margin-top: 2rem !important;
+  border-width: 2px !important;
+  border-radius: 30px !important;
+  padding: 8px 24px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  transition: all 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
-/* mobile */
-@media (max-width: 600px) {
+.hero-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 152, 0, 0.2);
+  transition: all 0.4s ease;
+  z-index: -1;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.hero-button:hover::before {
+  left: 0;
+}
+
+/* Style for the typing cursor */
+.typed-cursor {
+  color: #ff9800 !important;
+  font-size: 2rem;
+  animation: cursorBlink 0.7s infinite;
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 900px) {
   .hero-content {
-    margin-left: 5px !important;
-
-    justify-content: flex-start;
-  }
-  .hero-text {
-    text-align: left !important;
-    margin-left: 5px !important;
-    font-size: 12px !important;
-  }
-  
-  .hero-name {
-    text-align: left !important;
-    font-size: 23px !important;
-  }
-
-  .hero-button {
-    justify-content: flex-start;
-    text-align: left !important;
-  }
-  .MuiContainer-root{
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 50% !important;
-  }
-  .MuiTypography-root{
-    margin: 0 !important;
-  }
-  .MuiButtonBase-root{
-    padding: 0.011rem !important;
-    margin: 0 !important;
-    font-size: 12px !important;
+    padding-top: 10vh !important;
   }
 }
 
-@media (min-width: 601px) and (max-width: 960px) {
+@media (max-width: 600px) {
   .hero-text {
-    margin-left: 50px !important;
-    font-size: 50px !important;
+    font-size: 2.5rem !important;
   }
   
-  .hero-name {
-    font-size: 60px !important;
-  }
-
-  .hero-button {
-    margin-left: 50px !important;
-    width: auto;
+  .hero-content {
+    padding-left: 1.5rem !important;
+    padding-top: 7vh !important;
   }
 }
