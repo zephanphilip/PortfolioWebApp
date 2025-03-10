@@ -133,14 +133,23 @@
 }
 
 .tech-chip {
-  background-color: #f0f0f0;
+  border: 1px solid #ff9800;  /* Use 'border' shorthand property with correct units */
   padding: 4px 10px;
   border-radius: 15px;
   font-size: 0.7rem;
-  color: #555;
+  color: #fff;
   font-weight: 500;
+  background-color: rgba(255, 152, 0, 0.2);  /* Adding a slight background for better visibility */
+  display: inline-block;
+  margin: 2px;
 }
-
+.project-category-tags {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 .project-actions {
   padding: 16px;
   display: flex;
@@ -169,7 +178,7 @@
 }
 
 .code-button {
-  color: #333 !important;
+  color: #ccc !important;
   border-color: #ccc !important;
 }
 

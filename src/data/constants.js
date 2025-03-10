@@ -148,7 +148,7 @@ export const educationData = [
     degree: "Bachelor of Technology - BTech, Computer Science and Design",
     duration: "Nov 2021 - Aug 2025",
     grade: "7.8 CGPA",
-    description: "I am currently pursuing a Bachelor's degree in Computer Science and Design at VJCET. I have completed 6 semesters and have a CGPA of 7.6.",
+    description: "I am currently pursuing a Bachelor's degree in Computer Science and Design at VJCET. I have completed 6 semesters and have a CGPA of 7.8 .",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpMOc16kDkgbHzh2BesIHD02_KICNaJQChA&s"
   },
   {
@@ -172,8 +172,48 @@ export const educationData = [
 
   
   export const projects = [
+    {
+      id: 18,
+      title: "Trash - A Waste Management Initiative",
+      date: "Dec 2024",
+      description:
+        "The Trash App is a comprehensive waste management solution designed to promote recycling by enabling users to sell their waste for responsible disposal. Built using React Native for the user app, React.js for the admin panel, and Node.js with Express and MongoDB for the backend, the app provides a seamless experience for individuals, schools, colleges, offices, and factories. It features Google-based signup with Clerk, waste estimation, and an integrated social media platform for community engagement. Users can access chat support with an AI bot and admin, educational YouTube videos, and a review system powered by Gemini AI for feedback analysis. This app streamlines waste management while fostering environmental responsibility.",
+      image:
+        "https://github.com/user-attachments/assets/750dd7ba-c3fe-46a1-82df-dbe56777e611",
+      tags: [
+        "React Native",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB","MUI",
+        "Gemini",
+        "Adobe Photoshop"
+      ],
+      category: "App",
+      github: "https://github.com/zephanphilip/TrashApp",},
+    {
+      id: 19,
+      title: "PlateSaver",
+      date: "Nov 2024",
+      description:
+        "Developed PlateSaver, a full-stack web and mobile application aimed at reducing food waste by enabling users to manage their food inventory, plan meals, and share excess food. The app integrates AI-driven meal planning and recipe suggestions based on available ingredients, enhancing user experience. It also includes a community-driven food-sharing feature where restaurants can list surplus food for donation. Built using React and Material UI for the frontend, Node.js and Express.js for the backend, and MongoDB for database management, ensuring efficient data handling and scalability.",
+      image:
+        "https://github.com/user-attachments/assets/54a8f52d-95f9-4671-81f2-886b98c8c5ec",
+      tags: [
+        "React Native",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB","MUI",
+        "Gemini",
+        "Adobe Photoshop"
+      ],
+      category: ["App", "web app"],
+      github: "https://github.com/zephanphilip/PlateSaver",
+  
+    },
     { id: 15,
-      title: "Runner Game with Mixamo Animations and Skate Mechanic",
+      title: "Runner Game with Mixamo Animations and Skate Mechanics",
       date: "Feb 2025",
       description:
         "Built a runner game featuring a character with fluid animations created using Mixamo. Implemented a unique skate mechanic where players can skate for 5 seconds after scoring 10 points, adding a layer of strategy and excitement. This project deepened my understanding of animation integration, character controllers, and game balancing.",
@@ -181,8 +221,10 @@ export const educationData = [
         runner,
       tags: [
         "Unity 3d",
+        "C#",
+        "Adobe Photoshop"
       ],
-      category: "3d",
+      category: "Game",
       link: "https://drive.google.com/drive/folders/1pFetDUq-aT7kPLJUTwXI_pHyj7KZ68wv?usp=sharing",
     },
     { id: 16,
@@ -193,9 +235,10 @@ export const educationData = [
       image:
         heli,
       tags: [
-        "Unity 3d",
+        "Unity 3d","C#",
+        "Adobe Photoshop"
       ],
-      category: "3d",
+      category: "Game",
       link: "https://drive.google.com/drive/folders/1WkqaVEt1XL-ats4UUzcQ7j71tjmmSx1w?usp=sharing",
     },
     { id: 17,
@@ -206,9 +249,9 @@ export const educationData = [
       image:
         flappy,
       tags: [
-        "Unity 3d",
+        "Unity 3d","C#"
       ],
-      category: "3d",
+      category: "Game",
       link: "https://drive.google.com/drive/folders/1WkqaVEt1XL-ats4UUzcQ7j71tjmmSx1w?usp=sharing",
     },
     {
@@ -221,9 +264,10 @@ export const educationData = [
         vrgame,
       tags: [
         "Blender 3D",
-        "Adobe Premiere Pro",
+        "Unity 3D",
+        "C#"
       ],
-      category: "3d",
+      category: ["VR","Game"],
       link: "https://drive.google.com/drive/folders/14-ndTx7AzwN8VtlFkCPIagLp64aWa3S9?usp=sharing",
     },
     {id: 13,
@@ -236,8 +280,9 @@ export const educationData = [
       tags: [
         "Blender 3D",
         "Adobe Premiere Pro",
+        "Adobe Photoshop"
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/C3xgNtePLnW/?igsh=MWt2bm95YzV3MjF4NQ==",
    },
    {id: 14,
@@ -249,9 +294,10 @@ export const educationData = [
       moto1,
     tags: [
       "Blender 3D",
-      "Adobe Premiere Pro",
+        "Adobe Premiere Pro",
+        "Adobe Photoshop"
     ],
-    category: "3d",
+    category: "Animation",
     link: "https://www.instagram.com/reel/Cp7_VWwsIpk/?igsh=MWt3ZWVyZHZrOW1lMw==",
  },
     {
@@ -266,8 +312,28 @@ export const educationData = [
         "Blender 3D",
         "Adobe Premiere Pro",
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/C5vupkgy75M/?igsh=bjRjbTRnb2Q5d2M0",
+    },
+    {
+      id: 13,
+      title: "Ai Notes App",
+      date: "Jun 2024",
+      description:
+        "Ai Notes App is an note writing application which includes google's Gemenai ai integration giving suggestions, planings calculations based on your notes",
+      image:
+        "https://github.com/zephanphilip/PortfolioWebApp/assets/133225359/227287d6-8eb9-4bb3-8c28-03f971dcba97",
+      tags: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB","MUI",
+        "Gemini",
+        "Adobe Photoshop"
+      ],
+      category: "web app",
+      github: "https://github.com/zephanphilip/Ai-NotesApp",
+      webapp: "https://ai-notesapp.onrender.com/",
     },
     {
       id: 3,
@@ -281,7 +347,7 @@ export const educationData = [
         "Blender 3D",
         "Adobe Premiere Pro",
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/Cwk2IUWyLVP/?igsh=Z3d1dDlpamU2eHZr",
     },
     {
@@ -296,7 +362,7 @@ export const educationData = [
         "Blender 3D",
         "Adobe Premiere Pro",
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/CZD9L_Ll9j_/?igsh=aGFkb3B3Y2hndnEz",
     },
     {
@@ -310,8 +376,9 @@ export const educationData = [
       tags: [
         "Blender 3D",
         "Adobe Premiere Pro",
+        "Adobe Photoshop"
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/CN6zu4PjRLm/?igsh=MWhuaHd6eW05djc2dg==",
     },
     {
@@ -326,7 +393,7 @@ export const educationData = [
         "Blender 3D",
         "Adobe Premiere Pro",
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/CYJzjwBF36n/?igsh=MXgyMm9tZGYzM29uZg==",
     },
     {
@@ -340,8 +407,9 @@ export const educationData = [
       tags: [
         "Blender 3D",
         "Adobe Premiere Pro",
+        "Adobe Photoshop"
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/p/CLR5RvLD1w4/?igsh=MWJxejJiazlzazdpcg==",
     },
     {
@@ -356,28 +424,10 @@ export const educationData = [
         "Blender 3D",
         "Adobe Premiere Pro",
       ],
-      category: "3d",
+      category: "Animation",
       link: "https://www.instagram.com/reel/CrVT7X6uEDz/?igsh=MTd6dHlnbjU1aWpyOQ==",
     },
-    {
-      id: 13,
-      title: "Ai Notes App",
-      date: "Jun 2024",
-      description:
-        "Ai Notes App is an note writing application which includes google's Gemenai ai integration giving suggestions, planings calculations based on your notes",
-      image:
-        "https://github.com/zephanphilip/PortfolioWebApp/assets/133225359/227287d6-8eb9-4bb3-8c28-03f971dcba97",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Gemenai",
-      ],
-      category: "web app",
-      github: "https://github.com/zephanphilip/Ai-NotesApp",
-      webapp: "https://ai-notesapp.onrender.com/",
-    },
+    
     {
       id: 14,
       title: "Expense Tracker",
@@ -387,10 +437,13 @@ export const educationData = [
       image:
         "https://github.com/zephanphilip/Expense-Tracker/assets/133225359/7a23931d-bd00-401b-9ae0-c2735f091a07",
       tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
+
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB","MUI",
+
+
       ],
       category: "web app",
       github: "https://github.com/zephanphilip/Expense-Tracker",
@@ -404,7 +457,10 @@ export const educationData = [
         "Developed a Chat app using React and Firebase. Here users can create public rooms and Chat with anyone.",
       image:
         "https://github.com/zephanphilip/chat-app/assets/133225359/42548fd0-405c-4499-b5c9-892171895e15",
-      tags: ["React Js", "firebase"],
+      tags: [
+        "React.js", "firebase"
+
+      ],
       category: "web app",
       github: "https://github.com/zephanphilip/chat-app",
       webapp: "https://chat-app-322ad.web.app/",
@@ -419,10 +475,12 @@ export const educationData = [
       image:
         "https://github.com/zephanphilip/WorkoutPlanner/assets/133225359/41b25bb4-c364-495c-a138-46b794f29806",
       tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
+
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB","MUI",
+
       ],
       category: "web app",
       github: "https://github.com/zephanphilip/WorkoutPlanner",
@@ -437,11 +495,11 @@ export const educationData = [
       image:
         "https://github.com/zephanphilip/netflix_clone/assets/133225359/9a97c36b-e2af-45cc-bf7a-2a5bb2a83f90",
       tags: [
-        "React Js",
+        "React.js",
       ],
       category: "web app",
       github: "https://github.com/zephanphilip/netflix_clone",
-      webapp: "https://github.com/zephanphilip/netflix_clone",
+      webapp: "https://zephanphilip.github.io/netflix_clone/",
     },
     {
       id: 12,
@@ -452,12 +510,12 @@ export const educationData = [
       image:
         "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp/assets/133225359/039b9d7b-37f0-4ff8-8400-6a7c39c750ce",
       tags: [
-        "Three Js",
+        "Three.js",
         "html",
+        "css"
       ],
       category: "web app",
       github: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
-      webapp: "https://github.com/zephanphilip/Carrera-GT-3D-Walkaround-WebApp",
     },
    
   ];
