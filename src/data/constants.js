@@ -66,17 +66,12 @@ export const Bio = {
         },
         {
           name: "Node Js",
-          image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/node-js-icon.png",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEh8Ak9RsNs5R8bnB8wHW0fblqHwILD_LMtvPn0WmgyYN_Rc8gROV5frKiacj0FElW2y0&usqp=CAU",
         },
         {
           name: "Express Js",
           image:
             "https://www.manektech.com/storage/developer/1646733543.webp",
-        },
-        {
-          name: "MySQL",
-          image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png",
         },
         {
           name: "MongoDB",
@@ -95,12 +90,12 @@ export const Bio = {
         {
           name: "Blender",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/blender-icon.png",
+            "https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_white.png",
         },
         {
           name: "Premiere Pro",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-premiere-pro-icon.png",
+            "https://cdn.prod.website-files.com/65e09abf952724557f01dd99/65e09abf952724557f01e3b7_Premiere_icon.png",
         },
         {
           name: "After Effects",
@@ -110,7 +105,7 @@ export const Bio = {
         {
           name: "Photoshop",
           image:
-              "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-photoshop-icon.png",
+              "https://brandlogos.net/wp-content/uploads/2022/04/adobe_photoshop-logo-brandlogos.net_.png",
         },
         {
           name: "Unreal Engine",
@@ -120,12 +115,12 @@ export const Bio = {
         {
           name: "Unity 3D",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/unity-game-engine-icon.png",
+            "https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png",
         },
         {
           name: "GitHub",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png",
+            "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         },
         {
           name: "VS Code",
@@ -135,7 +130,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+            "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=256",
         },
       ],
     },
